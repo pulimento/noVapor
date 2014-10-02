@@ -218,13 +218,14 @@ h1.post-title {
   color: #333;
 }
 h1.post-title a {
-  color: rgb(255,79,0);
+  color: #333;
+  font-size: 2em;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
 h1.post-title a:focus,
 h1.post-title a:hover {
-  color: #000;
+  color: rgb(255,79,0);
   text-decoration: none;
 }
 h2 {
